@@ -32,8 +32,8 @@ html, body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    height: 45em;
-    max-height: 110vw;
+    height: 60em;
+    max-height: 120vw;
     /* width: 40em; */
     width: 100%;
     z-index: 1;
@@ -43,7 +43,7 @@ html, body {
 .preview .imgPreview {
     position: absolute;
     width: 100%;
-    height: 60em;
+    height: 70em;
     background-image: url('../img/backPreview.png');
     background-position: left top;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ html, body {
 }
 
 .preview .contentTop .leftSide p {
-    font-size: 8em;
+    font-size: 11.3em;
     line-height: 0.8;
     position: relative;
     z-index: 1;
@@ -103,7 +103,7 @@ html, body {
 
 .preview .contentTop .rightSide {
     display: flex;
-    padding-left: 20em;
+    padding-left: 13em;
     padding-top: 2em;
     gap: 3em;
 }
@@ -111,13 +111,13 @@ html, body {
 .preview .contentTop .rightSide p {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 1.7em;
     font-weight: 500;
     line-height: 1.2;
 }
 
 .preview .contentTop .rightSide img {
-    width: 7em;
+    width: 11em;
     height: fit-content;
 }
 
@@ -126,9 +126,9 @@ html, body {
     z-index: 1;
     flex: 0 0 auto;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.7em;
     font-weight: 500;
-    padding: 2em;
+    padding-bottom: 1em;
     background-color: #FFFFFF4D; 
 }
 
