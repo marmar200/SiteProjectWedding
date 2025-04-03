@@ -1,0 +1,49 @@
+form {
+    padding: 2em;
+    margin: 3em auto 1em;
+    text-align: left;
+    background-color: white;
+    filter: drop-shadow(0 0 0.2em #000000);
+    width: fit-content;
+    border-radius: 20px;
+    font-family: "Literata", serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+form div input {
+    font-size: 1em;
+    line-height: 2;
+    padding: 0 0.5em;
+    font-family: "Literata", serif;
+    border: 0.1em solid #5c5c5c;
+    max-width: 17em;
+    border-radius: 0.5em;
+}
+
+form label {
+    line-height: 1;
+    font-size: 1.4em;
+    display: block;
+    font-weight: 400;
+}
+
+form button {
+    font-size: 1.1em;
+    line-height: 2.3;
+    font-family: "Literata", serif;
+    width: 15em;
+    margin: 1em auto 0;
+    border-radius: 0.5em;
+    background-color: rgb(23, 174, 23);
+    color: #fff;
+    border: 0px;
+    font-weight: 600;
+}

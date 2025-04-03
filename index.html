@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Свадьба</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
 </head>
 <body>
@@ -181,6 +182,79 @@
                     нам при организации свадьбы.<br>
                     Будем ждать ответ до 10.07.2025г.
                 </p>
+                <form id="weddingForm">
+                    <!-- 1. Полное имя -->
+                    <div class="form-group">
+                      <label>Фамилия и имя:</label>
+                      <input 
+                        type="text" 
+                        name="fullname" 
+                        placeholder="Иванова Анна" 
+                        required
+                      >
+                    </div>
+                  
+                    <!-- 2. Присутствие -->
+                    <div class="form-group">
+                      <label>Сможете ли вы присутствовать на свадьбе?</label>
+                      <label>
+                        <input type="radio" name="attendance" value="✅ Да" required> 
+                        ✅ Да, с радостью приду!
+                      </label>
+                      <label>
+                        <input type="radio" name="attendance" value="❌ Нет"> 
+                        ❌ К сожалению, не смогу
+                      </label>
+                    </div>
+                  
+                    <!-- 3. Алкоголь -->
+                    <div class="form-group">
+                      <label>Какой алкоголь предпочитаете?</label>
+                      <label>
+                        <input type="checkbox" name="alcohol" value="🍷 Красное вино"> 
+                        🍷 Красное вино
+                      </label>
+                      <label>
+                        <input type="checkbox" name="alcohol" value="🍾 Белое вино"> 
+                        🍾 Белое вино
+                      </label>
+                      <label>
+                        <input type="checkbox" name="alcohol" value="🍸 Водка"> 
+                        🍸 Водка
+                      </label>
+                      <label>
+                        <input type="checkbox" name="alcohol" value="🥃 Коньяк"> 
+                        🥃 Коньяк
+                      </label>
+                      <label>
+                        <input type="checkbox" name="alcohol" value="🚫 Не пью алкоголь"> 
+                        🚫 Не пью алкоголь
+                      </label>
+                    </div>
+                  
+                    <!-- 4. Трансфер -->
+                    <div class="form-group">
+                      <label>Нужен ли вам трансфер?</label>
+                      <label>
+                        <input type="radio" name="transfer" value="🚗 Туда" required> 
+                        🚗 Да, нужен только туда
+                      </label>
+                      <label>
+                        <input type="radio" name="transfer" value="🚗 Обратно"> 
+                        🚗 Да, нужен только обратно
+                      </label>
+                      <label>
+                        <input type="radio" name="transfer" value="🚗 Туда и обратно"> 
+                        🚗 Да, нужен туда и обратно
+                      </label>
+                      <label>
+                        <input type="radio" name="transfer" value="🚶‍♂️ Самостоятельно"> 
+                        🚶‍♂️ Нет, доберусь самостоятельно
+                      </label>
+                    </div>
+                  
+                    <button type="submit">Отправить ответ</button>
+                </form>
             </section>
             <section class="contact">
                 <img src="img/paperclip.svg" alt="">
@@ -222,3 +296,5 @@
     </div>
 </body>
 </html>
+
+<script src="js/script.js"></script>
